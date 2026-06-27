@@ -82,9 +82,9 @@ h2{
 
 .collab-list{
 	display: grid;
-	grid-template-columns: 1fr 1fr; /*create 2 columns of equal width*/
+	grid-template-columns: 1fr 1fr 1fr; /*create 2 columns of equal width*/
 	gap: 1rem 4rem; /*1rem gap row, 4rem gap column*/
-	max-width: 800px;
+	max-width: 8000px;
 	margin-top: 1.5rem;
 	font-weight: 450;	
 }
@@ -124,3 +124,4 @@ footer{
 	color: #33b5ff;
 	text-decoration: none;
 }
+
