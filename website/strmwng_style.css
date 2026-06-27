@@ -1,0 +1,126 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 160px;
+	height: 100vh;
+}
+
+
+.bonnie-tyler{
+	display: flex; /*activates flexbox layout model to allow manipulation*/
+	gap: 4rem; /*size of gap btwn the columns*/
+	align-items: flex-start; /*prevent sidebar from stretching to the bottom*/
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.toc{
+	position: sticky;
+	top: 20rem;
+	width: 240px;
+	flex-shrink: 0; /*prevent sidebar from shrinking on smaller windows*/
+}
+
+.toc h3{
+	font-size: 1.0rem;
+	font-family: "Spectral", serif;
+	font-weight: 300;
+	color: #4a55668;
+	margin-bottom: 1rem;
+}
+
+.toc a{
+	font-size: 1.0rem;
+	font-family: "Spectral", serif;
+	font-weight: 300;
+	display: block;
+	color: #a0aec0;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.toc a:hover{
+	color: #00a2ff;
+}
+
+/*spectral weight: 200, 300(light), 400(reg), 500(med), 600(semi-bold), 700, 800*/
+.title{
+	font-size: 4.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 600;
+	font-variant: small-caps;
+	text-align: center;
+	margin-bottom: 0;	
+}
+
+.subtitle{
+	font-size: 1.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 500;
+	text-align: center;
+	opacity: 0.3;
+	margin-top: 0;
+}
+
+h2{
+	font-size: 2.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 600;
+}
+
+.intro-mission{
+	font-size: 1.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 400;
+}
+
+.les-collabos{
+	font-size: 1.4rem;
+	font-family: "Spectral", serif;
+	font-weight: 600;
+}
+
+.collab-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr; /*create 2 columns of equal width*/
+	gap: 1rem 4rem; /*1rem gap row, 4rem gap column*/
+	max-width: 800px;
+	margin-top: 1.5rem;
+	font-weight: 450;	
+}
+
+.cyberstorm{
+	text-align: center;
+}
+
+.why-is-needed{
+	font-size: 1.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 400;
+}
+
+.stormwing-invictus{
+	font-size: 1.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 400;
+}
+
+footer{
+	font-size: 1.2rem;
+	font-family: "Spectral", serif;
+	font-weight: 400;
+	padding: 4rem, 2rem;
+	border-top: 1px solid #1a2333;
+}
+
+.footer-email{
+	color: #00a2ff;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.footer-email: hover{
+	color: #33b5ff;
+	text-decoration: none;
+}
